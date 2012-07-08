@@ -1,0 +1,33 @@
+XS3K
+----
+X-Sledding 3000
+
+About
+-----
+X-Sledding 300 is a cross-platform 3d racing game.
+The game data files are compressed and placed under the bin directory
+(data.tar.gz). In order to play the game, you need to uncompress
+the data file and place the contents under the same directory as the 
+executable. You will also need fmodex.dll if you don't already have 
+the fmod library installed in your system.
+
+If you want a precompiled package, you can grab it here:
+https://dl.dropbox.com/u/60120442/demo/xs3k.zip
+
+Supported platforms
+-------------------
+ * MS Windows
+ * Playstation 3
+
+Due to the NDA, we had to remove the PS3 source code
+before releasing the game as open-source.
+ 
+Dependencies
+------------
+ * TEXEngine
+
+Place the files under the directory dep in the root of the
+project with the following structure:
+
+dep/inc/library_name/	: Header files
+dep/lib/library_name/	: Static lib binaries
