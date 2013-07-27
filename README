@@ -11,9 +11,6 @@ the data file and place the contents under the same directory as the
 executable. You will also need the cg and fmodex dll files if you don't 
 already have the related libraries installed in your system.
 
-If you want a precompiled package, with all dependencies included
-you can grab it here: https://dl.dropbox.com/u/60120442/demo/xs3k.zip
-
 Supported platforms
 -------------------
  * MS Windows
